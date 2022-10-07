@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<div>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Raleway&family=Roboto+Mono:ital,wght@0,100;1,100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="bg-img">
+
+    <h1 id="title">Career Development Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the site!</p>
+    
+    <form id="survey-form">
+  
+    <fieldset>
+    <label id="name-label">Name<input id="name" type="text" placeholder="Enter your name" required/></label>
+    <label id="email-label">Email<input id="email" type="email" placeholder="Enter your email" required/></label>
+    <label id="number-label">Age (optional)<input id="number" type="number" placeholder="Enter your age" min="12" max="120"/></label>
+    </fieldset>
+  
+    <fieldset>
+    <label id="dropdown-label">Which option best describes your current role?
+    <select id="dropdown" type="dropdown">
+    <option value="">Select current role</option>
+    <option value="1">Student</option>
+    <option value="2">Full time job</option>
+    <option value="3">Looking for new career opportunities</option>
+    <option value="4">Other</option>
+    </select>
+    </label>
+    </fieldset>
+  
+    <fieldset>
+   <p>Would you recommend our site to a friend?</p>
+    <label for="definitely"><input class="inline" value="yes" type="radio" name="wouldyou"/>Definitely</label>
+    <label for="not sure"><input class="inline" value="no" type="radio" name="wouldyou"/>Not sure</label>
+    <label for="maybe"><input class="inline" value="maybe" type="radio" name="wouldyou"/>Maybe</label>
+    </fieldset>
+  
+    <fieldset>
+    <p>What kind of content would you find useful?</p>
+    <label for="tests"><input class="inline" type="checkbox" value="tests"/>Variaus career and personality tests</label>
+    <label for="histories"><input class="inline" type="checkbox" value="Success histories"/>Success histories</label>
+    <label for="links"><input class="inline" type="checkbox" value="Useful links"/>Useful links</label>
+    </fieldset>
+  
+    <fieldset>
+    <label for="textarea"> Any comments or suggestions?
+    <textarea id="comments" name="comments" rows:4 cols: 5 placeholder="Enter your comment here..."></textarea>
+    </label>
+    </fieldset>
+    
+    <input id="submit" type="submit"/>
+    
+    </form>
+    </div>
+  
+
+        
+          <!-- <form action="/action_page.php" class="container">
+            <h1>Login</h1>
+        
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+        
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+        
+            <button type="submit" class="btn">Login</button>
+          </form> -->
+        
+        
+        
+        
+</body>
+</html>
